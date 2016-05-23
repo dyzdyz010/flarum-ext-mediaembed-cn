@@ -1,0 +1,32 @@
+{
+	"name": "dyzdyz010/flarum-ext-mediaembed-cn",
+	"description": "自动将第三方媒体嵌入到Flarum中。",
+	"type": "flarum-extension",
+	"keywords": ["flarum","embed","bilibili","media","music","163"],
+	"version": "0.0.1",
+	"author": {
+		"name": "dyzdyz010",
+		"email": "dyzdyz010@sina.com",
+		"homepage": "http://blog.duyizhuo.com",
+		"role": "Developer"
+	},
+	"license": "MIT",
+	"require": {
+		"php": ">=5.4.0",
+		"flarum/core": "^0.1.0-beta.3"
+	},
+	"support": {
+		"source": "https://github.com/dyzdyz010/flarum-ext-mediaembed-cn",
+		"issues": "https://github.com/dyzdyz010/flarum-ext-mediaembed-cn/issues"
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "Media-CN",
+			"icon": {
+				"name": "share-alt",
+				"backgroundColor": "#f25d8e",
+				"color": "#fff"
+			}
+		}
+	}
+}
