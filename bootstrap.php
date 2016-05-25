@@ -19,7 +19,7 @@ function subscribe(Dispatcher $events)
                         'src'    => 'https://static-s.bilibili.com/miniloader.swf?aid={@id}'
                     ]
                 ]
-                );
+            );
 
             $event->configurator->MediaEmbed->add(
                 'music163',
@@ -27,12 +27,12 @@ function subscribe(Dispatcher $events)
                     'host'    => 'music.163.com',
                     'extract' => "!music\\.163\\.com/#/song\\?id=(?'id'\\d+)!",
                     'iframe'  => [
-                        'width'  => 310,
-                        'height' => 66,
+                        'width'  => 330,
+                        'height' => 86,
                         'src'    => 'http://music.163.com/outchain/player?type=2&id={@id}&auto=0&height=66'
                     ]
                 ]
-                );
+            );
         }
     );
 };
