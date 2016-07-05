@@ -3,7 +3,7 @@
 	"description": "自动将第三方媒体嵌入到Flarum中。",
 	"type": "flarum-extension",
 	"keywords": ["flarum","embed","bilibili","media","music","163"],
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": {
 		"name": "dyzdyz010",
 		"email": "dyzdyz010@sina.com",
